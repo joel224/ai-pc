@@ -1,0 +1,250 @@
+[
+  {
+    "url": "https://www.nykaa.com/search/result/?q=puppeteer&root=search&searchType=Manual&sourcepage=home",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com//assets/desktop/images/chat_logo.svg",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/assets/Inter.3fb4b486ce..woff2",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/assets/ssp-l.8d763566e2..woff2",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/dfb2506190231823544_1.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/ui_components.ec5f0f95ff.js",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/dfb2506190231823537_1.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/dfb2506190231823551_1.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/dfb2506190231823520_1.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.nykaa.com/media/catalog/product/tr:w-220,h-220,cm-pad_resize/d/f/dfb2506190231823568_1.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/vendor.crit1.9e5da7bbcb.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/vendor.crit2.1d757a0948.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/9701.a3e842ae94.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/5036.778f30f782.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/805.b61e45e9dd.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/bundle.167b75e665.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/3784.13d5a06ba7.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/header.2ae48d7f10.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/3352.d39db86c12.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/6519.9ae1f06b11.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/8999.1cfff63bb3.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/6782.102592b0b6.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/6966.ed916852a7.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/8161.bf1aaac457.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/searchListing.m.94db6e313a.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/widgets.3271d85808.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/5220.612ef27073.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/filters.d47726c607.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://asset.nykaa.com/dstatic/6052.88fc513d66.chunk.js",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com/app-api/index.php/react/navigation?forDevice=desktop",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com/search/trending",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com/ReactConfig.php",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com/app-api/index.php/react/config_flags",
+    "status": 200
+  },
+  {
+    "url": "https://www.nykaa.com/gludo/searchSuggestions?q=puppeteer",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2019/Maybelline1211.png",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/2021/common-strip.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/uiTools/2024-3/beauty.png",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/2024/wishcare-v1.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static1.nykaa.com/media/wysiwyg/HeaderIcons/menusprite.png",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/uiTools/2023-10/Lakme_118x55pxls.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/cms/beauty/menu/nykaa-cosmetics.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/cms/beauty/menu/mac.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2019/lorealparis.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2020/BrandslogoMenubar/huda-beauty.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/Biotique_new.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/cms/beauty/menu/natural-logo.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/Brandslogo/FacesCanadaa.png",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/uiTools/2024-9/TFS-logo-1.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/colorbar-logoforui.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/Brandslogo/nyx_New.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/Brandslogo/LOTUS-HERBALS.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2019/niveaa.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/cms/beauty/menu/clinique.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2018/neutrogena.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2020/BrandslogoMenubar/Estee-Lauder.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2020/Olay_logos.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/cms/beauty/menu/kay-beauty.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/2020/BrandslogoMenubar/Herbal-Essences.png",
+    "status": 200
+  },
+  {
+    "url": "https://adn-static2.nykaa.com/media/wysiwyg/beautybook_2img.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/uiTools/2024-2/first-in-fashion-.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://images-static.naikaa.com/media/wysiwyg/2021/Buying-Guide-Mega-menu-new.jpg",
+    "status": 200
+  },
+  {
+    "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MWT2MSJ",
+    "status": 200
+  }
+]

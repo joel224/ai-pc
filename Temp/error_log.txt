@@ -1,0 +1,122 @@
+Error parsing JSON: Expecting property name enclosed in double quotes: line 121 column 1 (char 5867)
+Problematic JSON: {
+  "@context": "http://schema.org/",
+  "@type": "Product",
+  "name": "Best Selling Coffee Bundle Gift Pack",
+  "url": "https://ravecoffee.co.uk/products/best-selling-coffee-bundle",
+  "description": "If you are new to Rave then this bundle is a great place to start, 3 x 250g bags of our top selling coffee bean.Signature Blend - Medium/Dark Roast(Chocolate and Caramel flavours, great as a flat white or Piccolo)Colombia El Carmen - Medium/Dark Roast (Chocolate/caramel overtones and a muted red fruit acidity. Great body and lingering aftertaste) The Italian Job - Dark Roast (Slightly stronger with chocolate and a nutty finish)Mycotoxin In CoffeeWe sent a sample of our Colombia El Carmen coffee away for Mycotoxin testing and it came back with a result of less than 0.1 parts per billion of all tested toxins. This is great news, but technically relates to the specific batch and specific green lot that we sent away. We&#39;ll be testing again soon and will publish those results here.",
+  "sku": "63008",
+  "brand": {
+    "@type": "Brand",
+    "name": "Ravecoffee"
+  },"image": [
+      "https://ravecoffee.co.uk/cdn/shop/files/BestSellingCoffeeBundleWithBoxcopy_2246797d-84f7-4794-aeec-28e9928052f4_2000x.webp?v=1732816746"
+    ],
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "GBP",
+      "lowPrice":21.62,
+      "highPrice":21.62,
+      "availability": "InStock",
+      "offerCount":4,
+      "seller": {
+        "@type": "Organization",
+        "@id": "https://ravecoffee.co.uk#organization"
+      }
+    },
+    "hasVariant": [{
+        "@type": "Product",
+        "@id": "https://ravecoffee.co.uk/products/best-selling-coffee-bundle#productModel=19949439418422",
+        "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439418422",
+        "name": "Best Selling Coffee Bundle Gift Pack Whole Bean",
+          "image": "https://ravecoffee.co.uk/cdn/shop/files/Best-Selling-Bundle_NEW_6c20c091-7193-4cea-afa3-18d2fbd3ddfa_2000x.jpg?v=1711629091","sku": "63008","weight": {
+            "@type": "QuantitativeValue","unitCode": "kg","value": "0.84 kg"
+          },"brand": {
+          "@type": "Brand",
+          "name": "Ravecoffee"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability" : "http://schema.org/InStock",
+          "price" : "21.62",
+          "priceCurrency" : "GBP",
+          "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439418422",
+          "seller": {
+            "@type": "Organization",
+            "@id": "https://ravecoffee.co.uk#organization"
+          }
+        }
+      },
+    {
+        "@type": "Product",
+        "@id": "https://ravecoffee.co.uk/products/best-selling-coffee-bundle#productModel=19949439451190",
+        "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439451190",
+        "name": "Best Selling Coffee Bundle Gift Pack Cafetiere",
+          "image": "https://ravecoffee.co.uk/cdn/shop/files/Best-Selling-Bundle_NEW_6c20c091-7193-4cea-afa3-18d2fbd3ddfa_2000x.jpg?v=1711629091","sku": "63009","weight": {
+            "@type": "QuantitativeValue","unitCode": "kg","value": "0.84 kg"
+          },"brand": {
+          "@type": "Brand",
+          "name": "Ravecoffee"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability" : "http://schema.org/InStock",
+          "price" : "21.62",
+          "priceCurrency" : "GBP",
+          "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439451190",
+          "seller": {
+            "@type": "Organization",
+            "@id": "https://ravecoffee.co.uk#organization"
+          }
+        }
+      },
+    {
+        "@type": "Product",
+        "@id": "https://ravecoffee.co.uk/products/best-selling-coffee-bundle#productModel=19949439483958",
+        "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439483958",
+        "name": "Best Selling Coffee Bundle Gift Pack Filter",
+          "image": "https://ravecoffee.co.uk/cdn/shop/files/Best-Selling-Bundle_NEW_6c20c091-7193-4cea-afa3-18d2fbd3ddfa_2000x.jpg?v=1711629091","sku": "63010","weight": {
+            "@type": "QuantitativeValue","unitCode": "kg","value": "0.84 kg"
+          },"brand": {
+          "@type": "Brand",
+          "name": "Ravecoffee"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability" : "http://schema.org/InStock",
+          "price" : "21.62",
+          "priceCurrency" : "GBP",
+          "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439483958",
+          "seller": {
+            "@type": "Organization",
+            "@id": "https://ravecoffee.co.uk#organization"
+          }
+        }
+      },
+    {
+        "@type": "Product",
+        "@id": "https://ravecoffee.co.uk/products/best-selling-coffee-bundle#productModel=19949439582262",
+        "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439582262",
+        "name": "Best Selling Coffee Bundle Gift Pack Espresso",
+          "image": "https://ravecoffee.co.uk/cdn/shop/files/Best-Selling-Bundle_NEW_6c20c091-7193-4cea-afa3-18d2fbd3ddfa_2000x.jpg?v=1711629091","sku": "63011","weight": {
+            "@type": "QuantitativeValue","unitCode": "kg","value": "0.84 kg"
+          },"brand": {
+          "@type": "Brand",
+          "name": "Ravecoffee"
+        },
+        "offers": {
+          "@type": "Offer",
+          "availability" : "http://schema.org/InStock",
+          "price" : "21.62",
+          "priceCurrency" : "GBP",
+          "url" : "https://ravecoffee.co.uk/products/best-selling-coffee-bundle?variant=19949439582262",
+          "seller": {
+            "@type": "Organization",
+            "@id": "https://ravecoffee.co.uk#organization"
+          }
+        }
+      }
+    
+    ],
+    
+}

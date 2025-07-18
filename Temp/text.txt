@@ -1,0 +1,268 @@
+import os
+import google.generativeai as genai
+
+genai.configure(api_key="AIzaSyD14hafXeyls4ZpIdjrp56xsnuei0u_oBQ")
+model = genai.GenerativeModel("gemini-1.5-flash")
+
+
+prompt = """
+Prompt:
+
+Instructions:
+
+you should Identify Target Elements: Use CSS selectors or XPath to locate desired elements.and
+Extract Attributes: Extract class, id, tag_name, and text content.
+
+
+"""
+
+
+
+
+def generate_and_save(prompt):
+    # Generate the response using the provided prompt and pre-prompt
+    response = model.generate_content(prompt)
+    print(response.text)
+
+    # ... rest of the function remains the same
+    output_dir = r"E:\Temp"
+    output_filename = "ai_explanation.txt"
+
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
+    output_path = os.path.join(output_dir, output_filename)
+
+    with open(output_path, "w") as f:
+        f.write(response.text)
+
+    print(f"Output saved to: {output_path}")
+
+while True:
+    user_input = input("Enter your prompt: ")
+    pre_prompt = "Please provide a comprehensive response to the following prompt:"  # Example pre-prompt
+    generate_and_save(user_input, pre_prompt)
+
+    if user_input.lower() == "quit":
+        break
+
+
+
+
+
+    222222222222222222222222222222222222222222222
+
+
+    from interconnect import get_user_input
+import os
+import google.generativeai as genai
+
+# Define the pre-prompt
+pre_prompt = "Please provide a comprehensive response to the following prompt:"
+
+genai.configure(api_key="AIzaSyD14hafXeyls4ZpIdjrp56xsnuei0u_oBQ")
+model = genai.GenerativeModel("gemini-1.5-flash")
+
+while True:
+    prompt = get_user_input()
+
+    if prompt.lower() == "exit":
+        print("Exiting...")
+        break
+
+    # Combine pre-prompt and user input
+    full_prompt = pre_prompt + "\n" + prompt
+
+    response = model.generate_content(full_prompt)
+    print(response.text)
+
+    # ... rest of the code for saving response (unchanged)
+
+    88888888888888888888888888888
+    import requests
+from bs4 import BeautifulSoup
+
+def scrape_elements(url, tags):
+  response = requests.get(url)
+  soup = BeautifulSoup(response.text, 'html.parser')
+
+  for tag in tags:
+    elements = soup.find_all(tag)
+    for element in elements:
+      if tag == 'div':
+        # Iterate over child elements of the div
+        for child in element.children:
+          # Extract information based on child's tag
+          if child.name == 'img':
+            print(child.get('src'))
+          elif child.name == 'a':
+            print(child.get('href'))
+          else:
+            print(child.text)  # Extract text content
+      else:
+        # Handle other tags if needed (optional)
+        print(element.get('src'))  # Example for 'img' tags
+
+# Read the extracted tags from the file
+with open('E:\\Temp\\ai_explanation.txt', 'r') as f:
+  tags = f.read().splitlines()
+
+# Specify the target URL
+url = 'https://example.com'  # Replace with your target URL
+
+# Call the scraping function
+scrape_elements(url, tags)
+
+00000000000000000000000000000000000
+
+
+
+
+import requests
+from bs4 import BeautifulSoup
+import json  # For structured output
+
+def read_tags_from_file(filepath):
+    try:
+        with open(filepath, 'r') as f:
+            tags_html = f.read()
+            tags_soup = BeautifulSoup(tags_html, 'html.parser')
+            # ... (Improved tag extraction logic - see below) ...
+    except FileNotFoundError:
+        print(f"Error: File not found: {filepath}")
+        return None  # Or handle the error differently
+    # ... (Handle other potential exceptions)
+
+def scrape_website(url, tags):
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        extracted_data = []
+        for tag in tags:
+             # ... (Scraping and data processing logic - see below)
+        return extracted_data
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error during web scraping: {e}")
+        return None
+
+# Example usage:
+filepath = "E:\\Temp\\ai_explanation.txt"
+url = 'https://example.com'
+
+tags = read_tags_from_file(filepath)
+if tags:  # Proceed only if tags were successfully read
+    scraped_data = scrape_website(url, tags)
+    if scraped_data:
+        # Save the extracted data to a JSON file
+        with open("scraped_data.json", "w") as json_file:
+            json.dump(scraped_data, json_file, indent=4)
+        print("Scraped data saved to scraped_data.json")
+00000000000
+import re
+import chardet
+
+with open(r"E:\Temp\product_data.txt", "r", encoding="utf-8") as file:
+    text = file.read()
+def find_first_curly_brace(text):
+ 
+    match = re.search(r"{", text)
+    if match:
+        return match.start()
+    else:
+        return -1
+
+def xz(text, index):
+   
+    part1 = text[:index]
+    part2 = text[index:]
+    return part1, part2
+
+# Example usage:
+
+import chardet
+
+try:
+    with open(r"E:\Temp\product_data.txt", 'rb') as rawdata:
+        result = chardet.detect(rawdata.read())
+    encoding = result['encoding']
+    with open(r"E:\Temp\product_data.txt", "r", encoding="utf-16") as file:
+            text = file.read()
+    with open(r"E:\Temp\product_data.txt", "r", encoding="utf-8") as file:
+        text = file.read()
+        # Process the text here
+except UnicodeDecodeError:
+    # Handle the error, e.g., try alternative encodings
+    try:
+        with open(r"E:\Temp\product_data.txt", "r", encoding="latin-1") as file:
+            text = file.read()
+            # Process the text here
+    except UnicodeDecodeError:
+        print("Error: Could not decode file with UTF-8 or Latin-1.")
+
+
+index = find_first_curly_brace(text)
+
+if index != -1:
+    part1, part2 = xz(text, index)
+    print("Part 1:", part1)
+    print("Part 2:", part2)
+else:
+    print("No curly brace found in the text.")
+
+
+
+
+index = find_first_curly_brace(text)
+
+
+xz(index)
+
+import json
+
+def save_to_json(part2, filename):
+    with open(filename, 'w') as f:
+        json.dump(part2, f, indent=4)
+
+# Assuming xz(index) returns a list of dictionaries
+data = [xz(i) for i in range(10)]  # Example usage
+
+save_to_json(data, 'output.json')
+
+
+
+
+"""
+def split_by_curly_brace(text, file_path):
+
+  brace_index = find_first_curly_brace(text)  # Get index from reference text
+  if brace_index == -1:
+    return None  # No curly brace found
+
+  try:
+    with open(file_path, 'r', encoding='utf-8') as f:
+      file_content = f.read()
+  except FileNotFoundError:
+    print(f"Error: File '{file_path}' not found.")
+    return None
+
+  if brace_index >= len(file_content):
+    print(f"Error: Curly brace index {brace_index} is beyond file content length.")
+    return None
+
+  return [file_content[:brace_index], file_content[brace_index:]]
+
+# Example usage
+text = "[Running] python -u \"e:\\Temp\\text.py\""
+file_path = "E:\Temp\product_data.txt"  # Adjust the file path accordingly
+
+split_content = split_by_curly_brace(text, file_path)
+
+if split_content:
+  print(f"Part before curly brace in file: {split_content[0]}")
+  print(f"Part after curly brace in file: {split_content[1]}")
+else:
+  print("Splitting failed. Check for errors in the file path or curly brace index.")
+  """

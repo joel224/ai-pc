@@ -1,0 +1,73 @@
+def format_text_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        text = file.read()
+
+    lines = text.split('{')
+    formatted_text = ''
+
+    for i, line in enumerate(lines):
+        if i == 0:
+            formatted_text += line
+        else:
+            formatted_text += '\n{' + line
+
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write(formatted_text)
+
+# Usage example
+file_path = r'E:\Temp\product_data.txt'
+format_text_file(file_path)
+
+import json
+
+def format_json_file(file_path):
+    with open(file_path, 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+
+    formatted_lines = []
+    for line in lines:
+        if line.strip().startswith('{'):
+            try:
+                parsed_data = json.loads(line)
+                formatted_line = json.dumps(parsed_data, indent=4)
+                formatted_lines.append(formatted_line)
+            except json.JSONDecodeError as e:
+                print(f"Error parsing JSON line: {e}")
+
+    # Write the formatted lines back to the file
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write('\n'.join(formatted_lines))
+
+# Usage example
+json_file_path = r'E:\Temp\product_data.json'
+format_json_file(json_file_path)
+
+55555555555555555555555555555555555555555555555555
+
+import json
+import jsonschema
+
+def validate_json_schema(json_file_path, schema_file_path):
+  """Validates a JSON file against a given schema.
+
+  Args:
+    json_file_path: Path to the JSON file.
+    schema_file_path: Path to the JSON schema file.
+
+  Returns:
+    True if the JSON is valid, False otherwise.
+  """
+
+  try:
+    with open(json_file_path, 'r') as f:
+      json_data = json.load(f)
+
+    with open(schema_file_path, 'r') as f:
+      schema = json.load(f)
+
+    jsonschema.validate(instance=json_data, schema=schema)
+    return True
+
+  except (json.JSONDecodeError, jsonschema.exceptions.ValidationError) as e:
+    print(f"Validation Error: {e}")
+    return False

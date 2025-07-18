@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "amqplib": "^0.10.5",
+    "captcha-solver": "^0.0.1",
+    "chromedriver": "^134.0.3",
+    "EventEmitter": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "jsdom": "^25.0.1",
+    "node-fetch": "^3.3.2",
+    "puppeteer": "^23.11.1",
+    "selenium-webdriver": "^4.29.0",
+    "tkinter": "^0.0.2-security",
+    "user-agents": "^1.1.387"
+  },
+  "name": "temp",
+  "version": "1.0.0",
+  "main": "cokitemp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
