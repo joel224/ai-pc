@@ -4,5 +4,5 @@ this project is about automated web browsing. it works similar to open ai's oper
 
 currently the project can locate everything in a browser
 
-decided to close down the project due to its inherent complexity and the insufficient team support available to manage it effectively
+i regret a lot to closing, due to less support and lack of team due to its heavy complexity.
 
