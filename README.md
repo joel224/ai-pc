@@ -5,5 +5,5 @@ this project is about automated web browsing. it works similar to open ai's oper
 currently the project can locate everything in a browser
 
 this project is temporarily closed and code is pushed at 2025 july.
-i regret closing this due to less support and lack of team due to its heavy complexity.
+i regret a lot to closing, due to less support and lack of team due to its heavy complexity.
 
