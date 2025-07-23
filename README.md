@@ -7,5 +7,5 @@ currently the project can locate everything in a browser
 <img width="854" height="199" alt="image" src="https://github.com/user-attachments/assets/9890191f-36f5-48c2-a9d4-323b8cf3efcf" />
 <img width="688" height="247" alt="image" src="https://github.com/user-attachments/assets/51b250cb-012d-444a-98d7-06f735863619" />
 .
-i regret a lot to discontinueing this , due to less support and lack of team due to its heavy complexity.
+i regret a lot to discontinueing this , due to less support and lack of team due to its heavy complexity.WHite at collage
 
